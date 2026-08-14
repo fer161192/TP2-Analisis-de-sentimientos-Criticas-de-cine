@@ -1,16 +1,27 @@
-Trabajo práctico basado en procesamiento de lenguaje natural que consiste en realizar un análisis de sentimientos a un set de datos de críticas de cine en español. El objetivo de este mismo, es armar un modelo que aprenda a reconocer si una reseña de una critica de cine es positiva o negativa. Este trabajo se realizó utilizando multiples modelos ya que el objetivo del trabajo práctico era encontrar el mejor clasificador. Los modelos que se utilizaron son: 
+# Análisis de Sentimientos en Críticas de Cine (Español)
 
-1. Bayes Naive
-2. Random Forest
-3. XGBoost
-4. Red Neuronal 
-5. Ensamble de tipo Stacking 1 (Teniendo como modelos base a los ya entrenados que fueron Bayes Naive, XGBoost y red neuronal y el estimador final usado fue XGBClassifier)
-6. Ensamble de tipo Stacking 2 (Teniendo como modelos base a los ya entrenados que fueron Bayes Naive, XGBoost y red neuronal y el estimador final usado fue LogisticRegression)
-7. Ensamble de tipo Stacking 3 (Teniendo como modelos base a los ya entrenados que fueron Bayes Naive, XGBoost y red neuronal y el estimador final usado fue XGBClassifier)
-8. Ensamble de tipo Stacking 4 (Teniendo como modelos base a los ya entrenados que fueron Bayes Naive, XGBoost y red neuronal y el estimador final usado fue RandomForestClassifier)
-9. Ensamble de tipo Stacking 5 (Teniendo como modelos base a los ya entrenados que fueron Bayes Naive, XGBoost y red neuronal y el estimador final usado fue SVC)
-10. Ensamble de tipo Stacking 6 (Teniendo como modelos base a los ya entrenados que fueron Bayes Naive, XGBoost y red neuronal y el estimador final usado fue MLPClassifier (Clasificador basado en Perceptrón Multicapa))
+## Objetivo
+[1-2 líneas: clasificar reseñas como positivas/negativas usando NLP]
 
-Al final, el mejor clasificador que nos dió, fue el ensamble Stacking 6.
+## Enfoque
+Se entrenaron y compararon múltiples modelos, incluyendo ensambles (stacking) 
+combinando los mejores clasificadores base.
+
+## Modelos evaluados
+- Bayes Naive, Random Forest, XGBoost, Red Neuronal
+- 6 variantes de ensamble Stacking (distintos estimadores finales)
+
+## Resultado
+🏆 El mejor clasificador fue **Stacking 6** (estimador final: MLPClassifier), 
+con [métrica clave, ej: accuracy/F1 de X%]
+
+## Tecnologías
+Python, Scikit-learn, XGBoost, [NLTK/spaCy si usaste], Pandas
+
+## Informe completo
+Ver [7506R_TP2_GRUPO27_CHP1_REPORTE.pdf](link) para el detalle metodológico completo.
+
+## Cómo correrlo
+[instrucciones básicas]
 
 

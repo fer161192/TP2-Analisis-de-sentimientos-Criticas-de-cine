@@ -13,4 +13,4 @@ Trabajo práctico basado en procesamiento de lenguaje natural que consiste en re
 
 Al final, el mejor clasificador que nos dió, fue el ensamble Stacking 6.
 
-Actualización: Proximamente haré una mejora e intentaré realizar una versión de este mismo trabajo práctico pero que esta vez, clasifique reseñas en inglés.
+

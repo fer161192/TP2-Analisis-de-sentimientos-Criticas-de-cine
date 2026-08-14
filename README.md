@@ -21,7 +21,4 @@ Python, Scikit-learn, XGBoost, [NLTK/spaCy si usaste], Pandas
 ## Informe completo
 Ver [7506R_TP2_GRUPO27_CHP1_REPORTE.pdf](link) para el detalle metodológico completo.
 
-## Cómo correrlo
-[instrucciones básicas]
-
 

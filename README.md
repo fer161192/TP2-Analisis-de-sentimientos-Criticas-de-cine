@@ -1,7 +1,7 @@
 # Análisis de Sentimientos en Críticas de Cine (Español)
 
 ## Objetivo
-[1-2 líneas: clasificar reseñas como positivas/negativas usando NLP]
+Clasificar reseñas como positivas/negativas usando NLP
 
 ## Enfoque
 Se entrenaron y compararon múltiples modelos, incluyendo ensambles (stacking) 

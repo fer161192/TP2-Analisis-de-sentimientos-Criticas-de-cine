@@ -1,5 +1,7 @@
 # Análisis de Sentimientos en Críticas de Cine (Español)
 
+Este trabajo fue realizado en un TP grupal para la materia llamada Ciencia de Datos en la carrera de Ingeniería en Informática de la UBA. 
+
 ## Objetivo
 Clasificar reseñas como positivas/negativas usando NLP
 
